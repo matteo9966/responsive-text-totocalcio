@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+.wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  height: 100px;
+}
+
+.container {
+  border: 1px solid red;
+  margin-bottom: 0.51rem;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
