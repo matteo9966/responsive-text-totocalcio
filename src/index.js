@@ -46,10 +46,8 @@ const ListaSquadre2 = [
 const containers = document.querySelectorAll(".container");
 const textFieldSquadre = document.querySelectorAll(".wrapper");
 const mainContainer = document.querySelector(".grid");
-
 const btn1 = document.getElementById("squadre1");
 const btn2 = document.getElementById("squadre2");
-
 const mutationObserver = new MutationObserver((event) => {
   updateInputs();
 });
@@ -83,7 +81,6 @@ const updateFields = (elencosquadre) => {
     field.innerHTML = elencosquadre[index];
   });
 };
-
 btn1.addEventListener("click", (event) => {
   updateFields(ListaSquadre1);
 });
